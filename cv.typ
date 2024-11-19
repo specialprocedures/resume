@@ -46,7 +46,7 @@
 #set text(font: "Noto Sans Symbols", 10pt, weight: "light")
 #show link: it => [
   #set text(rgb("#0000EE"))
-  #underline(it.body)
+  #underline(it)
 ]
 
 // Title block
